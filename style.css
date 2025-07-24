@@ -81,3 +81,21 @@
     width: 100%;
     transition: background 0.3s ease;
 }
+
+.deal-card-style {
+     
+
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    flex: 1;
+    min-height: 280px;
+}
