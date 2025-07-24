@@ -32,7 +32,7 @@
   <div class="flex justify-between items-center w-full gap-2">
     
     <div class="text-container max-w-lg">
-      <h1 class="text-5xl font-bold font-serif leading-tight">
+      <h1 class="text-5xl font-bold font-['Noto_Serif'] leading-tight">
         ALWAYS <span class="text-orange-500">FRESH <br> FLOWERS</span>
       </h1>
       <p class="text-lg mt-4 font-sans font-[Inter] grey">
@@ -47,9 +47,24 @@
   </div>
 </section>
 <main>
-    <section class="newsletter">
+   <section class="newsletter bg-[url('assets/news-letter-bg.png')] bg-center bg-cover text-white h-screen flex flex-col items-center justify-center px-5 font-serif">
+  <h2 class="text-[50px] font-bold mb-8 mt-[130px] text-center font-['Noto_Serif']">Join the colorful Bunch</h2>
 
-    </section>
+  <form class="flex w-full max-w-[700px] mx-auto bg-white">
+    <input
+      type="email"
+      placeholder="Write email"
+      required
+      class="flex-1 py-[14px] px-4 text-base border-none outline-none placeholder-[#7f7b7b]  font-[Inter]"
+    />
+    <button
+      type="submit"
+      class="py-[14px] px-6 text-base bg-[#E95A08] text-white  font-[Inter]"
+    >
+      Subscribe
+    </button>
+  </form>
+</section>
 
 </main>
 <footer class="bg-white py-[60px] border-t border-[#f0f0f0]">
