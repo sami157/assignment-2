@@ -1,3 +1,21 @@
 .grey{
     color:#8987A1;
 }
+.store-text li {
+  
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+}
+
+.store-text li::before {
+  content: '•';
+  color: black;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
