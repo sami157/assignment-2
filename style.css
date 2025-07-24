@@ -99,3 +99,267 @@
     flex: 1;
     min-height: 280px;
 }
+
+
+
+
+@media (max-width: 576px) {
+    .flower-lover {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+    
+    .store-image {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .store-image img {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .trusted-badge {
+        display: none;
+    }
+    
+    .store-text {
+        width: 100%;
+    }
+    
+    .store-text h1 {
+        font-size: 28px;
+        margin-bottom: 25px;
+        text-align: left;
+    }
+    
+    .store-text ul {
+        padding-left: 0;
+        text-align: left;
+    }
+    
+    .store-text li {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        color: #888;
+    }
+    
+    .store-text li::before {
+        font-size: 1.2rem;
+        top: -2px;
+    }
+    .plants-section h2 {
+        font-size: 2.5rem;
+    }
+    
+    .plants-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        
+    }
+    .plant-card {
+    background: white;
+    
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    
+    height: 200px;
+}
+
+}
+
+
+
+
+@media (max-width: 576px) {
+  .nav-links-nocart {
+    display: none;
+  }
+
+  .navbar {
+    padding: 6px;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    min-height: 500px;
+    
+    
+  }
+    .hero-text {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+  
+ 
+
+  .hero-text h1 {
+    font-size: 28px;
+    text-align: left;
+    
+  }
+
+  .hero-text p {
+    font-size: 14px;
+    
+    text-align: left;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+ 
+  .cart-icon {
+    height: 15px;
+    width: 16px;
+  }
+
+  .hero-img {
+    margin-top: 1px;
+    width: 100%;
+    padding: 0px;
+  }
+  .join {
+    padding: 20px 6px;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;;
+ 
+  }
+
+  .join h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'Noto Serif', serif;
+
+  }
+
+  .join-form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+  }
+
+  .join-form input {
+    flex: 2;
+    font-size: 15px;
+    padding: 12px;
+    border: none;
+    outline: none;
+   
+    min-width: 0;
+    margin: 0;    
+  }
+
+  .join-form button {
+    flex: 1;
+    font-size: 15px;
+    padding: 12px;
+    white-space: nowrap;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    
+    margin: 0;
+  }
+}
+.join * {
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 10px;
+    }
+    
+    .footer-brand .logo img {
+        width: 100px;
+        margin-bottom: 15px;
+    }
+    
+    .tagline {
+        margin-bottom: 20px;
+        max-width: 100%;
+        margin-top: 30px;;
+    }
+    
+    .footer-links {
+        width: 100%;
+        margin-top: 0px;;
+       
+    }
+    
+    .footer-links a {
+        font-size: 16px;
+        color: #666;
+    }
+    
+    .social-section {
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+    
+    .social-section img {
+        width: 45px;
+        height: 45px;
+    }
+    .trusted-badge{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+   .latest-deal {
+       padding: 40px 15px;
+   }
+   
+   .latest-deal h2 {
+       font-size: 2rem;
+   }
+   
+   .latest-deal p {
+       font-size: 1rem;
+       margin: 0 auto 30px;
+   }
+   
+   .deals-grid {
+       grid-template-columns: 1fr;
+       height: auto;
+       gap: 15px;
+   }
+   
+   .left {
+       gap: 15px;
+   }
+   
+   .deal-card1 {
+       min-height: 270px;
+   }
+   .deal-card2 {
+       min-height: 270px;
+   }
+   .right .deal-card3 {
+       min-height: 270px;
+   }
+   
+   .deal-content h3 {
+       font-size: 1.5rem;
+   }
+}
